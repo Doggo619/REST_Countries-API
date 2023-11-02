@@ -51,13 +51,9 @@ public class CountryRepository {
                                     String capital = capitals.get(0);
                                     countryEntities.add(new CountryEntity(common, png, capital));
                                 } else {
-                                    // Handle the case where any of the required fields are missing or not in the expected format.
-                                    // You can log an error or take appropriate action, such as skipping this entry.
                                     Log.e("CountryRepository", "Invalid data for a country. Skipping.");
                                 }
                             } else {
-                                // Handle the case where 'name' or 'flags' fields are missing or not in the expected format.
-                                // You can log an error or take appropriate action, such as skipping this entry.
                                 Log.e("CountryRepository", "Invalid data for a country. Skipping.");
                             }
                         }

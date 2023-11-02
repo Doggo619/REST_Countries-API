@@ -6,7 +6,6 @@ public class CountryInfo {
     private NameInfo name;
     private List<String> capital;
     private FlagsInfo flags;
-    // Add other fields according to your needs
 
     public NameInfo getName() {
         return name;
